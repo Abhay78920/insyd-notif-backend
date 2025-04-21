@@ -2,9 +2,9 @@ import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
 import dotenv from 'dotenv';
-import { connectDB } from './config/database.js';
-import activityRoutes from './routes/activity.routes.js';
-import notificationRoutes from './routes/notification.routes.js';
+import { connectDB } from './src/config/database.js';
+import activityRoutes from './src/routes/activity.routes.js';
+import notificationRoutes from './src/routes/notification.routes.js';
 
 dotenv.config();
 
