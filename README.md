@@ -1,20 +1,19 @@
 # Insyd Backend
 
-Node.js backend service for the Insyd notification system.
+This is a proof-of-concept Node.js backend for the Insyd Notification System assignment. It handles user activity events and generates notifications stored in MongoDB.
 
 ## Features
 
 - RESTful API endpoints for activities and notifications
-- MongoDB integration with Mongoose
-- Real-time notification generation
-- Modular architecture with separation of concerns
+- MongoDB integration using Mongoose
+- Instant notification generation based on activity
+- Modular codebase with separation of concerns
 
 ## Tech Stack
 
 - Node.js
 - Express.js
-- MongoDB
-- Mongoose
+- MongoDB + Mongoose
 - ES Modules
 - CORS enabled
 
@@ -73,3 +72,6 @@ The API uses standard HTTP status codes:
 - 400: Bad Request
 - 404: Not Found
 - 500: Server Error
+
+## Deployment
+This backend is deployed on Render for demonstration purposes.
